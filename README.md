@@ -2,6 +2,8 @@
 
 A full-stack Fantasy Premier League optimization platform that uses machine learning to predict player performance and mathematical optimization to suggest optimal squad selections and transfer strategies.
 
+![TripleCaptain Demo](docs/demo.png)
+
 ## 🚀 Quick Start
 
 The fastest way to get started is using our setup script:
@@ -169,7 +171,6 @@ Once running, you can access:
 - Backend configuration is read from `backend/.env` via `pydantic-settings`.
 - Frontend configuration is read from `frontend/.env` (Create React App style `REACT_APP_*` vars).
 - For production, set strong values for `JWT_SECRET` and restrict `ALLOWED_ORIGINS`.
-
 
 ### Manual Background Tasks
 
